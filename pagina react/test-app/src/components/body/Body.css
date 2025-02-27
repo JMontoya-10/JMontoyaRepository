@@ -1,0 +1,25 @@
+body, html{
+    height: 100%;
+}
+
+.body-Container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    /*background-color: #f0f0f0;*/
+}
+
+@media screen and (max-width: 768px){
+    .body-Container{
+        width: 90%;
+    }
+    
+}
+
+/*
+    Pendientes:
+    Modificar responsividad para pantallas mayores a 768px e inferiores a 1024px.
+    Mejorar el diseño en general.
+    Crear más componentes de ser necesario (y posible).
+*/

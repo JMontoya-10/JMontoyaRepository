@@ -1,0 +1,74 @@
+h1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 2.5rem;
+}
+.merchandise-Content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.merch-Card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease;
+    margin: 10px;
+}
+
+.merch-Item-Img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.merch-Item-Title {
+    font-weight: bold;
+    margin: 10px;
+}
+
+.merch-Card:hover {
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+/*
+.merchCard-Tool {
+    background-image: url('/public/images/tools.png');
+}
+
+.merchCard-Auction {
+    background-image: url('/public/images/auction.png');
+}
+
+.merchCard-Pallets {
+    background-image: url('/public/images/pallets.png');
+}
+*/
+
+
+
+@media screen and (max-width: 768px) {
+    h1 {
+        text-align: center;
+        margin: 20px;
+        font-size: 2.5rem;
+    }
+    .merchCard-Tool, .merchCard-Auction, .merchCard-Pallets {
+        width: 200px;
+        height: 200px;
+    }
+    
+}

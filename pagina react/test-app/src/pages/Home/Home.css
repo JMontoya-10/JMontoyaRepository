@@ -1,0 +1,86 @@
+.home-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../../public/images/homebg.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    text-align: center;
+}
+
+.home-Container h1 {
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
+}
+
+.home-Video {
+    width: 60%;
+    max-width: 800px;
+    position: relative;
+    padding-top: 33.75%;
+    box-shadow: 20px 20px 30px 30px rgba(0, 0, 0, 0.5);
+}
+
+.home-Video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home-Info{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.home-Info h1, p{
+    text-align: center;
+}
+
+.auction-Title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.auct-Dates li, .auction-Title {
+    text-align: left;
+}
+
+.reseller-Info{
+    display: flex;
+    flex-direction: column;
+    color: red;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.reseller-Info h2{
+    font-size: 2.2rem;
+}
+
+.about-Us p{
+    display: flex;
+    flex-direction: column;
+}
+
+.ESD-Location{
+    width: 100%;
+    height: 450px; 
+    font: 400 11px Roboto, Arial, sans-serif;
+}

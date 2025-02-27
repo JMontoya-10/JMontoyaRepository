@@ -1,0 +1,108 @@
+.footer-Container {
+    display: flex;
+    justify-content: space-around; 
+    padding: 20px;
+    text-align: center;
+}
+
+.business_InfoContainer{
+    flex: 1;
+    max-width: 400px;
+}
+.business_InfoContainer h1, h2, p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.footer-Container p {
+    color: #333;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-Container a {
+    color: #666;
+    text-decoration: none;
+}
+
+.footer-Container a:hover {
+    color: #000;
+}
+
+
+.contact-Container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-Container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-Container input[type="text"], input[type="email"], input[type="tel"],
+.contact-Container textarea {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+.contact-Container button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+ 
+  .contact-Container button:hover {
+    background-color: #45a049;
+  }
+
+.insta-Icon, .face-Icon {
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 10px 10px 0;    
+    display: inline-block;
+}
+
+.insta-Icon{
+    background-image: url('/public/images/instagram.png');
+}
+
+.face-Icon{
+    background-image: url('/public/images/facebook.png');
+}
+
+
+@media screen and (max-width: 768px){
+    .footer-Container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .business_InfoContainer{
+        margin-bottom: 20px;
+    }
+
+    .contact-Container input[type="text"], input[type="email"], input[type="tel"],
+    .contact-Container textarea {
+        width: 100%;
+    }
+    
+}

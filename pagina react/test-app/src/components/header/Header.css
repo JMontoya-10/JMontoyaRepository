@@ -1,0 +1,25 @@
+.Logo {
+    background-image: url('/public/images/logo.png');
+    width: 100%;
+ 
+    background-size: contain;
+    background-position: left;
+    min-width: 350px;
+    min-height: 175px;
+    background-repeat: no-repeat;
+}
+ 
+.header-Container{
+ display: flex;
+ justify-content: space-around;
+}
+@media (max-width: 768px) {
+    .header-Container{
+        display: block;
+    }
+    .Logo{
+      background-position: center ;
+    }
+  
+}
+ 
