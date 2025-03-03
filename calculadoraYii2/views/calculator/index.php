@@ -68,7 +68,7 @@ use yii\widgets\ActiveForm;
             display.value += value;
         }
 
-        // Función para realizar el cálculo cuando se presiona "="
+        // Función para realizar el cálculo 
         function calculate() {
             let display = document.getElementById("display");
             try {
