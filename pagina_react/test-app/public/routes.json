@@ -1,0 +1,16 @@
+{
+    "routes": [
+      {
+        "route": "/",
+        "rewrite": "/index.html"
+      },
+      {
+        "route": "/Merchandise",
+        "rewrite": "/index.html"
+      },
+      {
+        "route": "/Auction",
+        "rewrite": "/index.html"
+      }
+    ]
+  }
